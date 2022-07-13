@@ -165,3 +165,21 @@ line.canvas.parentNode.style.height = '200px';
 window.addEventListener('load', function() {
     Lightense('img:not(.no-lightense)', { background: "#222222ee" });
 }, false);
+
+
+
+const jsScript = document.createElement('script')
+jsScript.src =
+    '/js/masonry.pkgd.min.js'
+
+document.body.appendChild(jsScript)
+
+jsScript.addEventListener('load', () => {
+    var grid = document.querySelector('.grid');
+    var msnry = new Masonry(grid, {
+        // options...
+        itemSelector: '.grid-item',
+        columnWidth: 100
+    });
+    console.log("Loaded Masonry");
+})

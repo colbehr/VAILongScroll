@@ -10,7 +10,6 @@
 
     <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="/css/style.css" rel="stylesheet" crossorigin="anonymous">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
     <!--[if lt IE 9]>
@@ -61,19 +60,18 @@
         </div>
     </div>
 
-    <div class="jumbotron bg2">
+    <div class="jumbotron ">
         <div class="container">
             <!-- Main Screen -->
             <div class="mainScreen">
                 <div class="row ">
-                    <div class="col-6 grid-col">
-                        <h1 class="display-2">VAI InHome</h1>
-                        <h2 class="text-muted">WWU x Tactile</h2>
-
-
-
+                    <div class="col-6 grid-col  d-flex align-content-center flex-wrap">
+                        <div>
+                            <h1 class="display-2">VAI InHome</h1>
+                            <h2 class="text-muted">WWU UX x Tactile</h2>
+                        </div>
                     </div>
-                    <div class="col-6 grid-col">
+                    <div class="col-6 grid-col" id="3DModelContainer">
 
                     </div>
                 </div>
@@ -396,27 +394,64 @@
             <div class="flow">
                 <div class="row">
                     <div class="col-12 grid-col">
-                        <h4>USER FLOWS helped us guide the interaction design of our product before prototyping.</h4>
+                        <h4 class="mb-4">USER FLOWS</h4>
+                        <h5>User Flows helped us guide the interaction design of our product before prototyping.</h5>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-4 grid-col">
-                        <h4>Setup</h4>
+                        <h5>Setup</h5>
+                        <img src="/img/flow1.jpg" alt="">
                     </div>
                     <div class="col-4 grid-col">
-                        <h4>Scheduling an Event</h4>
+                        <h5>Scheduling an Event</h5>
+                        <img src="/img/flow3.jpg" alt="">
+
                     </div>
                     <div class="col-4 grid-col">
-                        <h4>Scheduling an Uber</h4>
+                        <h5>Scheduling an Uber</h5>
+                        <img src="/img/flow2.jpg" alt="">
+
                     </div>
                 </div>
             </div>
             <!-- Storyboard-->
             <div class="storyboard">
-                <div class="row mb-3">
+                <div class="row">
                     <div class="col-12 grid-col">
-                        <h4>A STORYBOARD helped us highlight the specific problems we wanted to address and focus on.
-                        </h4>
+                        <h4 class="mb-4">STORYBOARD</h4>
+                        <h5>A STORYBOARD helped us highlight the specific problems we wanted to address and focus on.
+                        </h5>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3 grid-col">
+                        <img src="/img/storyboard/1.jpg" alt="" class="mb-3 ">
+                        <p>While excersizing, Rose pulls a muscle her knee</p>
+                        <img src="/img/storyboard/5-1.jpg" alt="">
+                        <p>She can use it to call her doctor</p>
+                    </div>
+                    <div class="col-3 grid-col">
+                        <img src="/img/storyboard/2.jpg" alt="" class="mb-3">
+                        <p>She can't get to her glasses and is forced to call her familly for help</p>
+
+                        <img src="/img/storyboard/5-3.jpg" alt="">
+                        <p>The device has powerful calendar features</p>
+                    </div>
+                    <div class="col-3 grid-col">
+                        <img src="/img/storyboard/3.jpg" alt="" class="mb-3">
+                        <p>The doctor says she should do some physical therapy</p>
+
+                        <img src="/img/storyboard/5-2.jpg" alt="">
+                        <p>She can even use it to order groceries</p>
+
+                    </div>
+                    <div class="col-3 grid-col">
+                        <img src="/img/storyboard/4-1.jpg" alt="" class="mb-3">
+                        <p>Her Family sets up the VAI InHome while she is at the doctors</p>
+                        <img src="/img/storyboard/5-4.jpg" alt="">
+                        <p>She calls her family to thank them</p>
+
                     </div>
                 </div>
             </div>
@@ -425,6 +460,68 @@
                 <div class="row mb-3">
                     <div class="col-12 grid-col">
                         <h4>Visual Design Iteration</h4>
+                        <div class="row grid" data-masonry='{"percentPosition": true}'>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/11.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/12.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/4.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/6.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/8.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/Frame 66.jpg" alt="">
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/grid/Frame 34.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -433,15 +530,76 @@
                 <div class="row mb-3">
                     <div class="col-12 grid-col">
                         <h4>Hardware Design Iteration</h4>
-
+                        <div class="row grid" data-masonry='{"percentPosition": true }'>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/edit2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/vai.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/PXL_20220602_213038234~2.jpg" alt="">
+                                </div>
+                            </div> -->
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/remote v2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/box1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/remote4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/remote v3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/remote1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/hardware/box2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- User Testing -->
             <div class="userTesting">
-                <div class="row mb-3">
+                <div class="row">
                     <div class="col-12 grid-col">
                         <h4>User Testing</h4>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <img src="/img/testing1.png" alt="">
+                    </div>
+
+                    <div class="col-6">
+                        <img src="/img/testing2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 text-center">
+                        <iframe style="border-radius: 20px;" width="640" height="315" src="https://www.youtube.com/embed/9AmX_5QR8A0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -450,25 +608,60 @@
                 <div class="row mb-3">
                     <div class="col-12 grid-col">
                         <h4>Prototype Tweaks</h4>
+                        <div class="row grid" data-masonry='{"percentPosition": true }'>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/dev/dev1-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/dev/dev1-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/dev/dev1-3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/dev/dev2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/dev/dev3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/dev/dev4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-3 mb-4">
+                                <div class="">
+                                    <img src="/img/dev/dev5.png" alt="">
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Prototype Tweaks Mobile  -->
-            <div class="mobileTweaks">
-                <div class="row mb-3">
-                    <div class="col-12 grid-col">
-                        <h4>Mobile Tweaks</h4>
-                    </div>
-                </div>
-            </div>
+
             <!-- Final Visual Design  -->
             <div class="finalVisual">
                 <div class="row mb-3">
                     <div class="col-12 grid-col">
-                        <h4>
+                        <h4 class=" mb-3">
                             Final Visual Design
                         </h4>
+                        <img src="/img/visual.png" alt="">
+
                     </div>
+
                 </div>
             </div>
             <!-- Final Hardware Design -->
@@ -477,126 +670,151 @@
                     <div class="col-12 grid-col">
                         <h4>Final Hardware Design</h4>
                     </div>
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <img src="/img/final2.png" alt="">
+                        </div>
+
+                        <div class="col-6">
+                            <img src="/img/final1.png" alt="">
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <!-- Demo -->
-            <!-- <div class="demo">
-            <div class="row mb-3">
-                <div class="col-6 grid-col">
-                    <h4>TV Demo</h4>
-                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLkzG3pLNNHaSYQ5X4we7tF%2FVAI-Inhome-Project%3Fnode-id%3D2112%253A16210%26scaling%3Dmin-zoom%26page-id%3D1438%253A7466%26starting-point-node-id%3D2112%253A16210"
-                        allowfullscreen></iframe>
-                </div>
-                <div class="col-6 grid-col">
-                    <h4>App Demo</h4>
-                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="400" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLkzG3pLNNHaSYQ5X4we7tF%2FVAI-Inhome-Project%3Fnode-id%3D2111%253A16210%26scaling%3Dmin-zoom%26page-id%3D1559%253A8377%26starting-point-node-id%3D2111%253A16210"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div> -->
-        </div>
-    </div>
-    <div class="jumbotron bg1">
-        <div class="container">
-            <!-- Hindsight -->
-            <div class="reflection" id="reflection">
-                <div class="row mb-3  d-flex align-content-center flex-wrap highlightBox">
-                    <div class="col-12 grid-col">
-                        <h4>REFLECTION</h4>
-                        <h1>What could we have spent more time developing?</h1>
-                        <h5>With hindsight, we can see where we could develop our product further and what parts need improvement.
-                        </h5>
+            <div class="demo">
+                <div class="row mb-3">
+                    <div class="col-6 grid-col">
+                        <h4>TV Demo</h4>
+                        <p>Check out our TV demo <a target="_blank" rel="noopener noreferrer" href="https://www.figma.com/proto/LkzG3pLNNHaSYQ5X4we7tF/VAI-Inhome-Project?scaling=scale-down-width">here</a>, or click the photo.</p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.figma.com/proto/LkzG3pLNNHaSYQ5X4we7tF/VAI-Inhome-Project?scaling=scale-down-width">
+                            <img src="/img/demo/flow1.jpg" alt="Photo of tv flowchart" class="no-lightense">
+                        </a>
+                    </div>
+                    <div class="col-6 grid-col">
+                        <h4>App Demo</h4>
+                        <p>Check out our App demo <a target="_blank" rel="noopener noreferrer" href="https://www.figma.com/proto/LkzG3pLNNHaSYQ5X4we7tF/VAI-Inhome-Project?node-id=2111%3A16210&scaling=contain">here</a> and scan the QR code to view on your
+                            phone.
+                        </p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.figma.com/proto/LkzG3pLNNHaSYQ5X4we7tF/VAI-Inhome-Project?node-id=2111%3A16210&scaling=contain">
+                            <img src="/img/demo/flow2.jpg" alt="Photo of app flowchart" class="no-lightense">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="jumbotron bg2">
-        <div class="container ">
-            <div class="reflection1">
-                <div class="row">
-                    <div class="col-6 grid-col">
-                        <h5>What do we think went well?</h5>
-                    </div>
-                    <div class="col-6 grid-col">
-                        <h4>We conducted really productive user testing and got some great feedback.</h4>
-                        <h4>The hardware design and accompanying renders helped bring our idea to life.</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="reflection2">
-                <div class="row mb-3">
-                    <div class="col-6 grid-col">
-                        <h5>Looking back, what could have been done better?</h5>
-                    </div>
-                    <div class="col-6 grid-col">
-                        <h4>Organizing our prototype frames, assets and labeling from the beginning.</h4>
-                        <h4>Utilizing our persona’s and story more to show why changes were made.</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="reflection3">
-                <div class="row mb-3">
-                    <div class="col-8 grid-col">
-                        <h5>What would we work on next if we had more time?</h5>
-                        <ul>
-                            <li>We heard lots of feedback about onboarding experiences in our user testing, and having more time would have let us explore that more.</li>
-                            <li>We wanted to create a working prototype of our remote, however it ended up being too ambitious.
-                            </li>
-                            <li>Inputting text and information was something we wanted to explore more.</li>
-                            <li>Final small design changes (consistent alignments, fonts, and colors).</li>
-                        </ul>
-                    </div>
-                    <div class="col-4 grid-col">
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- End -->
-            <div class="end">
-                <div class="row mb-3">
-                    <div class="col-12 grid-col">
-                        <!-- some fancy renders -->
-                    </div>
-                </div>
-            </div>
-            <div class="contact " id="contact">
-                <div class="row  ">
-                    <div class="col-12 grid-col mb-5">
-                        <h1 class="display-5"> Want to Contact us?</h1>
-                    </div>
-                    <div class="row mb-3 text-center">
-                        <div class="col-4 grid-col ">
-                            <img src="/img/profile/cb.jpg" alt="" class="roundPhotoProfile no-lightense">
-                            <div class="namebox">
-                                <h4>Colby Behrndt</h4>
-                                <h5 class="text-muted">Computer Science</h5>
-                            </div>
+        <div class="jumbotron bg1">
+            <div class="container">
+                <!-- Hindsight -->
+                <div class="reflection" id="reflection">
+                    <div class="row mb-3  d-flex align-content-center flex-wrap highlightBox">
+                        <div class="col-12 grid-col">
+                            <h4>REFLECTION</h4>
+                            <h1>What could we have spent more time developing?</h1>
+                            <h5>With hindsight, we can see where we could develop our product further and what parts need improvement.
+                            </h5>
                         </div>
-                        <div class="col-4 grid-col">
-                            <img src="/img/profile/ck.jpg" alt="" class="roundPhotoProfile no-lightense">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron bg2">
+            <div class="container ">
+                <div class="reflection1">
+                    <div class="row">
+                        <div class="col-6 grid-col  d-flex align-content-center flex-wrap ">
+                            <h5>What do we think <b>went well?</b> </h5>
+                        </div>
+                        <div class="col-6 grid-col">
+                            <ul>
+                                <li>We conducted really productive user testing and got some great feedback.</li>
+                                <li>The hardware design and accompanying renders helped bring our idea to life.</li>
+                            </ul>
 
-                            <div class="namebox">
-                                <h4>Cameron Kunz</h4>
-                                <h5 class="text-muted">Design</h5>
-                            </div>
                         </div>
-                        <div class="col-4 grid-col">
-                            <img src="/img/profile/bm.jpg" alt="" class="roundPhotoProfile no-lightense">
+                    </div>
+                </div>
+                <div class="reflection2">
+                    <div class="row mb-3">
+                        <div class="col-6 grid-col  d-flex align-content-center flex-wrap ">
+                            <h5>Looking back, what could have been <b>done better?</b></h5>
+                        </div>
+                        <div class="col-6 grid-col">
+                            <ul>
+                                <li>Organizing our prototype frames, assets and labeling from the beginning.</li>
+                                <li>Utilizing our persona’s and story more to show why changes were made.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="reflection3">
+                    <div class="row mb-3">
+                        <div class="col-6 grid-col  d-flex align-content-center flex-wrap">
+                            <h5>What would we work on next if we <b>had more time?</b></h5>
 
-                            <div class="namebox">
-                                <h4>Braden McGee</h4>
-                                <h5 class="text-muted">Psychology</h5>
+                        </div>
+                        <div class="col-6 grid-col">
+                            <ul>
+                                <li>We heard lots of feedback about onboarding experiences in our user testing, and having more time would have let us explore that more.</li>
+                                <li>We wanted to create a working prototype of our remote, however it ended up being too ambitious.
+                                </li>
+                                <li>Inputting text and information was something we wanted to explore more.</li>
+                                <li>Final small design changes (consistent alignments, fonts, and colors).</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End -->
+                <div class="end">
+                    <div class="row mb-3">
+                        <div class="col-12 grid-col">
+                            <!-- some fancy renders -->
+                        </div>
+                    </div>
+                </div>
+                <div class="contact " id="contact">
+                    <div class="row  ">
+                        <div class="col-12 grid-col mb-5">
+                            <h1 class="display-5"> Want to Contact us?</h1>
+                        </div>
+                        <div class="row mb-3 text-center">
+                            <div class="col-4 grid-col ">
+                                <img src="/img/profile/cb.jpg" alt="" class="roundPhotoProfile no-lightense">
+                                <div class="namebox">
+                                    <h4>Colby Behrndt</h4>
+                                    <h5 class="text-muted">Computer Science</h5>
+                                </div>
+                            </div>
+                            <div class="col-4 grid-col">
+                                <img src="/img/profile/ck.jpg" alt="" class="roundPhotoProfile no-lightense">
+
+                                <div class="namebox">
+                                    <h4>Cameron Kunz</h4>
+                                    <h5 class="text-muted">Design</h5>
+                                </div>
+                            </div>
+                            <div class="col-4 grid-col">
+                                <img src="/img/profile/bm.jpg" alt="" class="roundPhotoProfile no-lightense">
+
+                                <div class="namebox">
+                                    <h4>Braden McGee</h4>
+                                    <h5 class="text-muted">Psychology</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <script src="/js/bootstrap/bootstrap.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="/js/lightense.min.js"></script>
-        <script src="/js/graphing.js"></script>
+            <script src="/js/bootstrap/bootstrap.min.js"></script>
+            <script src="/js/chart.js"></script>
+            <script src="/js/lightense.min.js"></script>
+            <script src="/js/masonry.pkgd.min.js" async></script>
+            <script src="/js/graphing.js" async></script>
+            <script src="/js/three.min.js"></script>
+            <script src="/js/3d.js"></script>
+
 </body>
 
 </html>

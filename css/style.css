@@ -61,8 +61,13 @@ body {
 }
 
 .mainScreen {
-    margin-top: 250px;
-    margin-bottom: 250px;
+    /* margin-top: 250px; */
+    background-color: #222;
+    /* margin-bottom: 250px; */
+}
+
+#3DModelContainer {
+    width: 100px;
 }
 
 img {
@@ -239,5 +244,93 @@ canvas {
 }
 
 .contact {
-    margin: 30vh 0;
+    margin: 20vh 0 30vh 0;
+}
+
+.flow img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.flow img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.storyboard img {
+    width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 3 / 2;
+}
+
+.storyboard img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.visual img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.visual img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.hardware img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.hardware img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.userTesting img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.userTesting img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.tweaks img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tweaks img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.finalHardware img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.finalHardware img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.finalVisual img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.finalVisual img:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.demo p a {
+    /* text-decoration: none !important; */
+    color: #fff !important;
+}
+
+.demo img {
+    width: 100%;
+    border-radius: 20px;
+    transition: .1s;
+}
+
+.demo img:hover {
+    transform: scale(1.02, 1.02);
 }
