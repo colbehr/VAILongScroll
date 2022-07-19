@@ -334,3 +334,16 @@ canvas {
 .demo img:hover {
     transform: scale(1.02, 1.02);
 }
+
+.headerImage {
+    width: 100% !important;
+}
+
+.bioText a {
+    color: white;
+    text-decoration: none;
+}
+
+.bioText a:hover {
+    text-decoration: underline;
+}
