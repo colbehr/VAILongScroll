@@ -14,7 +14,7 @@ https://www.colbehr.com/projects/vaiinhome/
 
 ## Development setup
 
-This project is simply built with Bootstrap 5 and some vanilla javascript, along with some small libraries for various tasks.
+This project is simply built with Bootstrap 5 and some vanilla Javascript, along with some small libraries for various tasks.
 
 - `git clone https://github.com/colbehr/VAILongScroll`
 
