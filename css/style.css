@@ -29,6 +29,7 @@
 body {
     font-family: HelveticaNeue;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 h1 {
@@ -132,6 +133,7 @@ canvas {
     color: white;
     transition: .1s;
     text-decoration: none;
+    z-index: 1000;
 }
 
 .button:hover {
